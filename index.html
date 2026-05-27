@@ -1,0 +1,30 @@
+{% extends 'base.html' %}
+
+<title>Página {% block titulo %} Home {% endblock %}</title>
+
+{% block conteudo %}
+<div style="text-align: center;">
+    <h1 class="titulo">Com a <i>Direção Certa</i>, você nunca mais errará o caminho.</h1>
+    <img src="../img/apresentacao.jpg" alt="apresentacao" id="apresentacao">
+</div>
+<div style="padding: 0 0 0 5%;">
+    <h2><strong>Bem-vindo à nossa Autoescola!</strong></h2>
+    <p class="inicio">
+        Aqui você conquista sua habilitação com segurança, confiança e acompanhamento profissional em cada etapa.
+        Contamos com instrutores experientes, veículos modernos e um método de ensino eficiente que prepara você não
+        apenas para a prova, mas para dirigir com responsabilidade no dia a dia. <br>
+        Nosso compromisso é oferecer um atendimento rápido, transparente e acessível, com condições facilitadas e
+        horários flexíveis para se adaptar à sua rotina. Seja para a primeira habilitação, renovação ou mudança de
+        categoria, estamos prontos para ajudar você a alcançar esse objetivo com tranquilidade.
+    </p>
+</div>
+<div class="servicos">
+    <h2><strong>Serviços Oferecidos:</strong></h2>
+    <ul>
+        <li>Primeira Habilitação</li>
+        <li>Renovação de CNH</li>
+        <li>Mudança de Categoria</li>
+        <li>Curso Teórico</li>
+    </ul>
+</div>
+{% endblock %}
