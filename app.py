@@ -1,3 +1,4 @@
+'''
 from flask import Flask, render_template, url_for
 
 app = Flask(__name__)
@@ -13,3 +14,5 @@ def user():
 @app.route("/quemsomos")
 def who():
     return render_template("sobre.html")
+
+'''
